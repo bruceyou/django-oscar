@@ -13,11 +13,6 @@ env:
     - DJANGO=Django==1.6.5
     - DJANGO=https://www.djangoproject.com/download/1.7c2/tarball/
 
-matrix:
-  allow_failures:
-    - python: '3.3'
-    - python: '3.4'
-
 install:
   - easy_install $DJANGO
 
